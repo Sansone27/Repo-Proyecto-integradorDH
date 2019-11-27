@@ -38,8 +38,11 @@ header a{
 	text-shadow:5px grey;
 }
 header a:hover{
-	transform: scale(1.1);
+	background:black;
+	color: white;
+	text-shadow: 3px 5px 5px grey;
 	transition: all 0.6s;
+	text-decoration: underline;
 }
 
 .article-section{
@@ -56,10 +59,18 @@ section{
 
 .sponsors{
 	width:100%;
-	height:60vh;
+	height:50vh;
 	font-size:40px;
 	border:solid 10px grey;
 	
+
+}
+section .sponsors  img{
+	height: auto;
+	width:300px;
+	background-size: cover;
+	background-position: center center;
+
 
 }
 
@@ -84,7 +95,7 @@ article{
 	height:auto;	
 	background-size: cover;
 	background-position:center center;
-	border:grey 1px solid;
+	
 }
 
 }
@@ -95,4 +106,229 @@ article{
 	
 }
 /*INICIO DE LOS MEDIA QUERY------*/
+/*---------------MEDIA DE 1300PX-----------------*/
+@media (min-width:1300px){
+	.container{
+	display: flex;
+	flex-wrap: wrap;
+	background-repeat: none;	
+	margin:0 auto;
+}
+.hero-inicio{
+	background:url(hero.png);
+	height:905px;
+	width: 100%;
+	background-size: cover;
+	background-position: center center;
+}
+header{
+	display: flex;
+	width: 100%;
+	background:grey;
+	height:12vh;
+	margin-top:-111px;
 
+	
+}
+
+
+header a{
+	width: 25%;
+	text-align: center;
+	color: white;
+	font-size:45px;
+	margin-top:3px; 
+	border:3px solid white;
+	box-shadow:3px 1px 10px black;
+	text-decoration: none;
+	text-shadow:5px grey;
+	padding-top:20px;
+}
+header a:hover{
+	background:black;
+	color: white;
+	text-shadow: 3px 5px 5px grey;
+	transition: all 0.6s;
+	text-decoration: underline;
+
+}
+
+.article-section{
+	display:flex;
+	flex-wrap:wrap;
+	border:solid 1px grey;
+
+}
+section{
+	width:25%;
+	height:50vh;
+	
+}
+
+.sponsors{
+	width:100%;
+	height:50vh;
+	font-size:40px;
+	border:solid 10px grey;
+	
+
+}
+section .sponsors  img{
+	height: auto;
+	width:300px;
+	background-size: cover;
+	background-position: center center;
+
+
+}
+
+article{
+	width:75%;
+	display:flex;
+	flex-wrap: wrap;
+	border-bottom:1px solid grey;
+}
+.text-art{
+	width:60%;
+
+}
+.img-art{
+	width:40%;
+	
+
+}
+.img-art .img-in-art img{
+	margin-top:20px;
+	width: 280px;
+	height:auto;	
+	background-size: cover;
+	background-position:center center;
+	margin-left:15%;
+	
+}
+
+
+.share-buttom button{
+	width:150px;
+	height:80px;	
+	font-size: 20px;
+	
+}
+}
+
+/*---------------CIERRE MEDIA DE 1300PX-----------------*/
+
+
+
+
+
+
+/*---------------INICIO MEDIA DE 1100PX-----------------*/	
+@media (min-width:1300px){
+	.container{
+	display: flex;
+	flex-wrap: wrap;
+	background-repeat: none;	
+	margin:0 auto;
+}
+.hero-inicio{
+	background:url(hero.png);
+	height:890px;
+	width: 100%;
+	background-size: cover;
+	background-position: center center;
+}
+header{
+	display: flex;
+	width: 100%;
+	background:grey;
+	height:11vh;
+	margin-top:-95px;
+
+	
+}
+
+
+header a{
+	width: 25%;
+	text-align: center;
+	color: white;
+	font-size:45px;
+	margin-top:3px; 
+	border:3px solid white;
+	box-shadow:3px 1px 10px black;
+	text-decoration: none;
+	text-shadow:5px grey;
+	padding-top:20px;
+}
+header a:hover{
+	background:black;
+	color: white;
+	text-shadow: 3px 5px 5px grey;
+	transition: all 0.6s;
+	text-decoration: underline;
+
+}
+
+.article-section{
+	display:flex;
+	flex-wrap:wrap;
+	border:solid 1px grey;
+
+}
+section{
+	width:25%;
+	height:50vh;
+	
+}
+
+.sponsors{
+	width:100%;
+	height:50vh;
+	font-size:40px;
+	border:solid 10px grey;
+	
+
+}
+section .sponsors  img{
+	height: auto;
+	width:300px;
+	background-size: cover;
+	background-position: center center;
+
+
+}
+
+article{
+	width:75%;
+	display:flex;
+	flex-wrap: wrap;
+	border-bottom:1px solid grey;
+}
+.text-art{
+	width:60%;
+
+}
+.img-art{
+	width:40%;
+	
+
+}
+.img-art .img-in-art img{
+	margin-top:20px;
+	width: 240px;
+	height:auto;	
+	background-size: cover;
+	background-position:center center;
+	margin-left:15%;
+	
+}
+
+
+.share-buttom button{
+	width:150px;
+	height:80px;	
+	font-size: 20px;
+	
+}
+}
