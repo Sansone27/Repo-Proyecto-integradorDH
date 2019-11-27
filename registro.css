@@ -1,0 +1,32 @@
+*{
+	box-sizing: border-box;
+}
+.container{
+	margin: 0 auto;
+	text-align: center;
+
+}
+.logo-registro img{
+	background-size: cover;
+	height: auto;
+	width:300px;
+	background-position: center center;
+		
+		}
+		form{
+			font-size:25px;
+			font-family: italic;
+
+		}
+		input{
+			font-size:20px;
+			padding:5px;
+		}
+		select{
+			font-size: 20px;
+
+		}
+		.enviar{
+			margin-top:15px;
+			padding:5px;
+		}

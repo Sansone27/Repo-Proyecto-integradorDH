@@ -5,10 +5,10 @@
 	margin:0 auto;
 	text-align: center;
 }
-.logo-login{
-	background:url(logo.png);
-	width:289px;
-	height:50vh;
+.logo-login img{
+	
+	width:300px;
+	height:auto;
 	background-size:cover;
 	background-position: center center;
 	margin:0 auto;
@@ -31,6 +31,10 @@ button{
 }
 a{
 	text-decoration:none;
-	color:black;
+	color:blue;
 	font-size:25px;
+}
+input{
+	font-size:18px;
+	padding:5px;
 }
