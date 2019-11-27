@@ -6,6 +6,8 @@
 	flex-wrap: wrap;
 	background-repeat: none;	
 	margin:0 auto;
+	min-width:250px;
+	max-width:1400px;
 }
 .hero-inicio{
 	background:url(hero.png);
@@ -18,10 +20,9 @@ header{
 	display: flex;
 	width: 100%;
 	background:grey;
-	opacity:0.9;
+	
 	height:10vh;
 	margin-top:-35px;
-
 	
 }
 
@@ -36,7 +37,11 @@ header a{
 	box-shadow:3px 1px 10px black;
 	text-decoration: none;
 	text-shadow:5px grey;
+
+
 }
+
+
 header a:hover{
 	background:black;
 	color: white;
@@ -104,8 +109,808 @@ article{
 	height:80px;	
 	font-size: 20px;
 	
+	
 }
 /*INICIO DE LOS MEDIA QUERY------*/
+/*---------------------------------------APERTURA DE MEDIA 280PX------------*/
+
+
+@media (min-width:280px){
+	.container{
+	display: flex;
+	flex-wrap: wrap;
+	background-repeat: none;	
+	margin:0 auto;
+}
+.hero-inicio{
+	background:url(hero.png);
+	height:311px;
+	width: 100%;
+	background-size: cover;
+	background-position: center center;
+}
+header{
+	display: flex;
+	width: 100%;
+	background:grey;
+	height:5vh;
+	margin-top:-42px;
+
+	
+}
+
+
+header a{
+	width: 25%;
+	text-align: center;
+	color: white;
+	font-size:12px;
+	margin-top:3px; 
+	border:3px solid white;
+	box-shadow:3px 1px 10px black;
+	text-decoration: none;
+	text-shadow:5px grey;
+	padding-top:6px;
+}
+header a:hover{
+	background:black;
+	color: white;
+	text-shadow: 3px 5px 5px grey;
+	transition: all 0.6s;
+	text-decoration: underline;
+
+}
+
+.article-section{
+	display:flex;
+	flex-wrap:wrap;
+	border:solid 1px grey;
+
+}
+section{
+	width:25%;
+	height:50vh;
+	display: none;
+	
+	
+}
+
+.sponsors{
+	width:100%;
+	height:50vh;
+	font-size:40px;
+	border:solid 10px grey;
+	
+
+}
+section .sponsors  img{
+	height: auto;
+	width:300px;
+	background-size: cover;
+	background-position: center center;
+
+
+}
+
+article{
+	width:75%;
+	display:flex;
+	flex-wrap: wrap;
+	border-bottom:1px solid grey;
+}
+.text-art{
+	width:90%;
+
+}
+.img-art{
+	width:10%;
+	
+
+}
+.img-art .img-in-art img{
+	margin-top:20px;
+	width: 75px;
+	height:auto;	
+	background-size: cover;
+	background-position:center center;
+	margin-left:-6%;
+	
+}
+
+
+.share-buttom button{
+	width:100px;
+	height:60px;	
+	font-size: 20px;
+	background:grey;
+	color: white;
+	text-shadow:10px 10px 10px black;
+	
+}
+}
+/*-----------------------------------CIERRE DE MEDIA 280PX---*/
+/*---------------------------------------APERTURA DE MEDIA 350PX------------*/
+
+
+@media (min-width:350px){
+	.container{
+	display: flex;
+	flex-wrap: wrap;
+	background-repeat: none;	
+	margin:0 auto;
+}
+.hero-inicio{
+	background:url(hero.png);
+	height:325px;
+	width: 100%;
+	background-size: cover;
+	background-position: center center;
+}
+header{
+	display: flex;
+	width: 100%;
+	background:grey;
+	height:5vh;
+	margin-top:-42px;
+
+	
+}
+
+
+header a{
+	width: 25%;
+	text-align: center;
+	color: white;
+	font-size:12px;
+	margin-top:3px; 
+	border:3px solid white;
+	box-shadow:3px 1px 10px black;
+	text-decoration: none;
+	text-shadow:5px grey;
+	padding-top:12px;
+}
+header a:hover{
+	background:black;
+	color: white;
+	text-shadow: 3px 5px 5px grey;
+	transition: all 0.6s;
+	text-decoration: underline;
+
+}
+
+.article-section{
+	display:flex;
+	flex-wrap:wrap;
+	border:solid 1px grey;
+
+}
+section{
+	width:25%;
+	height:50vh;
+	display: none;
+	
+	
+}
+
+.sponsors{
+	width:100%;
+	height:50vh;
+	font-size:40px;
+	border:solid 10px grey;
+	
+
+}
+section .sponsors  img{
+	height: auto;
+	width:300px;
+	background-size: cover;
+	background-position: center center;
+
+
+}
+
+article{
+	width:75%;
+	display:flex;
+	flex-wrap: wrap;
+	border-bottom:1px solid grey;
+}
+.text-art{
+	width:90%;
+
+}
+.img-art{
+	width:10%;
+	
+
+}
+.img-art .img-in-art img{
+	margin-top:20px;
+	width: 94px;
+	height:auto;	
+	background-size: cover;
+	background-position:center center;
+	margin-left:10%;
+	
+}
+
+
+.share-buttom button{
+	width:100px;
+	height:60px;	
+	font-size: 20px;
+	background:grey;
+	color: white;
+	text-shadow:10px 10px 10px black;
+	
+}
+}
+/*-----------------------------------CIERRE DE MEDIA 350PX---*/
+/*---------------------------------------APERTURA DE MEDIA 450PX------------*/
+
+
+@media (min-width:450px){
+	.container{
+	display: flex;
+	flex-wrap: wrap;
+	background-repeat: none;	
+	margin:0 auto;
+}
+.hero-inicio{
+	background:url(hero.png);
+	height:426px;
+	width: 100%;
+	background-size: cover;
+	background-position: center center;
+}
+header{
+	display: flex;
+	width: 100%;
+	background:grey;
+	height:6vh;
+	margin-top:-54px;
+
+	
+}
+
+
+header a{
+	width: 25%;
+	text-align: center;
+	color: white;
+	font-size:17px;
+	margin-top:3px; 
+	border:3px solid white;
+	box-shadow:3px 1px 10px black;
+	text-decoration: none;
+	text-shadow:5px grey;
+	padding-top:15px;
+}
+header a:hover{
+	background:black;
+	color: white;
+	text-shadow: 3px 5px 5px grey;
+	transition: all 0.6s;
+	text-decoration: underline;
+
+}
+
+.article-section{
+	display:flex;
+	flex-wrap:wrap;
+	border:solid 1px grey;
+
+}
+section{
+	width:25%;
+	height:50vh;
+	display: none;
+	
+}
+
+.sponsors{
+	width:100%;
+	height:50vh;
+	font-size:40px;
+	border:solid 10px grey;
+	
+
+}
+section .sponsors  img{
+	height: auto;
+	width:300px;
+	background-size: cover;
+	background-position: center center;
+
+
+}
+
+article{
+	width:75%;
+	display:flex;
+	flex-wrap: wrap;
+	border-bottom:1px solid grey;
+}
+.text-art{
+	width:85%;
+
+}
+.img-art{
+	width:15%;
+	
+
+}
+.img-art .img-in-art img{
+	margin-top:20px;
+	width: 139px;
+	height:auto;	
+	background-size: cover;
+	background-position:center center;
+	margin-left:10%;
+	
+}
+
+
+.share-buttom button{
+	width:100px;
+	height:60px;	
+	font-size: 20px;
+	background:grey;
+	color: white;
+	text-shadow:10px 10px 10px black;
+	
+}
+}
+/*-----------------------------------CIERRE DE MEDIA 450PX---*/
+/*---------------INICIO MEDIA DE 600PX-----------*/	
+@media (min-width:600px){
+	.container{
+	display: flex;
+	flex-wrap: wrap;
+	background-repeat: none;	
+	margin:0 auto;
+}
+.hero-inicio{
+	background:url(hero.png);
+	height:598px;
+	width: 100%;
+	background-size: cover;
+	background-position: center center;
+}
+header{
+	display: flex;
+	width: 100%;
+	background:grey;
+	height:9vh;
+	margin-top:-73px;
+
+	
+}
+
+
+header a{
+	width: 25%;
+	text-align: center;
+	color: white;
+	font-size:23px;
+	margin-top:3px; 
+	border:3px solid white;
+	box-shadow:3px 1px 10px black;
+	text-decoration: none;
+	text-shadow:5px grey;
+	padding-top:26px;
+}
+header a:hover{
+	background:black;
+	color: white;
+	text-shadow: 3px 5px 5px grey;
+	transition: all 0.6s;
+	text-decoration: underline;
+
+}
+
+.article-section{
+	display:flex;
+	flex-wrap:wrap;
+	border:solid 1px grey;
+
+}
+section{
+	width:25%;
+	height:50vh;
+	display: flex;
+	flex-wrap: wrap;
+	
+	
+}
+
+.sponsors{
+	width:100%;
+	height:50vh;
+	font-size:40px;
+	border:solid 10px grey;
+	
+
+}
+section .sponsors  img{
+	height: auto;
+	width:300px;
+	background-size: cover;
+	background-position: center center;
+
+
+}
+
+article{
+	width:75%;
+	display:flex;
+	flex-wrap: wrap;
+	border-bottom:1px solid grey;
+}
+.text-art{
+	width:60%;
+
+}
+.img-art{
+	width:40%;
+	
+
+}
+.img-art .img-in-art img{
+	margin-top:20px;
+	width: 139px;
+	height:auto;	
+	background-size: cover;
+	background-position:center center;
+	margin-left:10%;
+	
+}
+
+
+.share-buttom button{
+	width:150px;
+	height:80px;	
+	font-size: 20px;
+	
+}
+}
+/*-----------------------------------CIERRE DE MEDIA 600PX---*/
+/*---------------INICIO MEDIA DE 750PX-----------*/	
+@media (min-width:750px){
+	.container{
+	display: flex;
+	flex-wrap: wrap;
+	background-repeat: none;	
+	margin:0 auto;
+}
+.hero-inicio{
+	background:url(hero.png);
+	height:763px;
+	width: 100%;
+	background-size: cover;
+	background-position: center center;
+}
+header{
+	display: flex;
+	width: 100%;
+	background:grey;
+	height:11vh;
+	margin-top:-95px;
+
+	
+}
+
+
+header a{
+	width: 25%;
+	text-align: center;
+	color: white;
+	font-size:30px;
+	margin-top:3px; 
+	border:3px solid white;
+	box-shadow:3px 1px 10px black;
+	text-decoration: none;
+	text-shadow:5px grey;
+	padding-top:30px;
+}
+header a:hover{
+	background:black;
+	color: white;
+	text-shadow: 3px 5px 5px grey;
+	transition: all 0.6s;
+	text-decoration: underline;
+
+}
+
+.article-section{
+	display:flex;
+	flex-wrap:wrap;
+	border:solid 1px grey;
+
+}
+section{
+	width:25%;
+	height:50vh;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.sponsors{
+	width:100%;
+	height:50vh;
+	font-size:40px;
+	border:solid 10px grey;
+	
+
+}
+section .sponsors  img{
+	height: auto;
+	width:300px;
+	background-size: cover;
+	background-position: center center;
+
+
+}
+
+article{
+	width:75%;
+	display:flex;
+	flex-wrap: wrap;
+	border-bottom:1px solid grey;
+}
+.text-art{
+	width:60%;
+
+}
+.img-art{
+	width:40%;
+	
+
+}
+.img-art .img-in-art img{
+	margin-top:20px;
+	width: 187px;
+	height:auto;	
+	background-size: cover;
+	background-position:center center;
+	margin-left:10%;
+	
+}
+
+
+.share-buttom button{
+	width:150px;
+	height:80px;	
+	font-size: 20px;
+	
+}
+}
+/*-----------CIERRE DE MEDIA 750PX------------*/
+/*---------------INICIO MEDIA DE 900PX-----------*/	
+@media (min-width:900px){
+	.container{
+	display: flex;
+	flex-wrap: wrap;
+	background-repeat: none;	
+	margin:0 auto;
+}
+.hero-inicio{
+	background:url(hero.png);
+	height:890px;
+	width: 100%;
+	background-size: cover;
+	background-position: center center;
+}
+header{
+	display: flex;
+	width: 100%;
+	background:grey;
+	height:11vh;
+	margin-top:-107px;
+
+	
+}
+
+
+header a{
+	width: 25%;
+	text-align: center;
+	color: white;
+	font-size:35px;
+	margin-top:3px; 
+	border:3px solid white;
+	box-shadow:3px 1px 10px black;
+	text-decoration: none;
+	text-shadow:5px grey;
+	padding-top:25px;
+}
+header a:hover{
+	background:black;
+	color: white;
+	text-shadow: 3px 5px 5px grey;
+	transition: all 0.6s;
+	text-decoration: underline;
+
+}
+
+.article-section{
+	display:flex;
+	flex-wrap:wrap;
+	border:solid 1px grey;
+
+}
+section{
+	width:25%;
+	height:50vh;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.sponsors{
+	width:100%;
+	height:50vh;
+	font-size:40px;
+	border:solid 10px grey;
+	
+
+}
+section .sponsors  img{
+	height: auto;
+	width:300px;
+	background-size: cover;
+	background-position: center center;
+
+
+}
+
+article{
+	width:75%;
+	display:flex;
+	flex-wrap: wrap;
+	border-bottom:1px solid grey;
+}
+.text-art{
+	width:60%;
+
+}
+.img-art{
+	width:40%;
+	
+
+}
+.img-art .img-in-art img{
+	margin-top:20px;
+	width: 240px;
+	height:auto;	
+	background-size: cover;
+	background-position:center center;
+	margin-left:7%;
+	
+}
+
+
+.share-buttom button{
+	width:150px;
+	height:80px;	
+	font-size: 20px;
+	
+}
+}
+/*--------------------------------CIERRE DE MEDIA 900 PX ----------------*/
+/*---------------INICIO MEDIA DE 1100PX-----------------*/	
+@media (min-width:1100px){
+	.container{
+	display: flex;
+	flex-wrap: wrap;
+	background-repeat: none;	
+	margin:0 auto;
+}
+.hero-inicio{
+	background:url(hero.png);
+	height:890px;
+	width: 100%;
+	background-size: cover;
+	background-position: center center;
+}
+header{
+	display: flex;
+	width: 100%;
+	background:grey;
+	height:11vh;
+	margin-top:-109px;
+
+	
+}
+
+
+header a{
+	width: 25%;
+	text-align: center;
+	color: white;
+	font-size:45px;
+	margin-top:3px; 
+	border:3px solid white;
+	box-shadow:3px 1px 10px black;
+	text-decoration: none;
+	text-shadow:5px grey;
+	padding-top:20px;
+}
+header a:hover{
+	background:black;
+	color: white;
+	text-shadow: 3px 5px 5px grey;
+	transition: all 0.6s;
+	text-decoration: underline;
+
+}
+
+.article-section{
+	display:flex;
+	flex-wrap:wrap;
+	border:solid 1px grey;
+
+}
+section{
+	width:25%;
+	height:50vh;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.sponsors{
+	width:100%;
+	height:50vh;
+	font-size:40px;
+	border:solid 10px grey;
+	
+
+}
+section .sponsors  img{
+	height: auto;
+	width:300px;
+	background-size: cover;
+	background-position: center center;
+
+
+}
+
+article{
+	width:75%;
+	display:flex;
+	flex-wrap: wrap;
+	border-bottom:1px solid grey;
+}
+.text-art{
+	width:60%;
+
+}
+.img-art{
+	width:40%;
+	
+
+}
+.img-art .img-in-art img{
+	margin-top:20px;
+	width: 240px;
+	height:auto;	
+	background-size: cover;
+	background-position:center center;
+	margin-left:15%;
+	
+}
+
+
+.share-buttom button{
+	width:150px;
+	height:80px;	
+	font-size: 20px;
+	
+}
+}
+/*------------------------CIERRE DE MEDIA 1100PX------------*/
 /*---------------MEDIA DE 1300PX-----------------*/
 @media (min-width:1300px){
 	.container{
@@ -162,6 +967,8 @@ header a:hover{
 section{
 	width:25%;
 	height:50vh;
+	display: flex;
+	flex-wrap: wrap;
 	
 }
 
@@ -199,11 +1006,11 @@ article{
 }
 .img-art .img-in-art img{
 	margin-top:20px;
-	width: 280px;
+	width: 196px;
 	height:auto;	
 	background-size: cover;
 	background-position:center center;
-	margin-left:15%;
+	margin-left:29%;
 	
 }
 
@@ -220,115 +1027,3 @@ article{
 
 
 
-
-
-
-/*---------------INICIO MEDIA DE 1100PX-----------------*/	
-@media (min-width:1300px){
-	.container{
-	display: flex;
-	flex-wrap: wrap;
-	background-repeat: none;	
-	margin:0 auto;
-}
-.hero-inicio{
-	background:url(hero.png);
-	height:890px;
-	width: 100%;
-	background-size: cover;
-	background-position: center center;
-}
-header{
-	display: flex;
-	width: 100%;
-	background:grey;
-	height:11vh;
-	margin-top:-95px;
-
-	
-}
-
-
-header a{
-	width: 25%;
-	text-align: center;
-	color: white;
-	font-size:45px;
-	margin-top:3px; 
-	border:3px solid white;
-	box-shadow:3px 1px 10px black;
-	text-decoration: none;
-	text-shadow:5px grey;
-	padding-top:20px;
-}
-header a:hover{
-	background:black;
-	color: white;
-	text-shadow: 3px 5px 5px grey;
-	transition: all 0.6s;
-	text-decoration: underline;
-
-}
-
-.article-section{
-	display:flex;
-	flex-wrap:wrap;
-	border:solid 1px grey;
-
-}
-section{
-	width:25%;
-	height:50vh;
-	
-}
-
-.sponsors{
-	width:100%;
-	height:50vh;
-	font-size:40px;
-	border:solid 10px grey;
-	
-
-}
-section .sponsors  img{
-	height: auto;
-	width:300px;
-	background-size: cover;
-	background-position: center center;
-
-
-}
-
-article{
-	width:75%;
-	display:flex;
-	flex-wrap: wrap;
-	border-bottom:1px solid grey;
-}
-.text-art{
-	width:60%;
-
-}
-.img-art{
-	width:40%;
-	
-
-}
-.img-art .img-in-art img{
-	margin-top:20px;
-	width: 240px;
-	height:auto;	
-	background-size: cover;
-	background-position:center center;
-	margin-left:15%;
-	
-}
-
-
-.share-buttom button{
-	width:150px;
-	height:80px;	
-	font-size: 20px;
-	
-}
-}
