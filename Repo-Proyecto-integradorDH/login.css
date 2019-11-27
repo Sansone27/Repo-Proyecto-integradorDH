@@ -1,0 +1,36 @@
+*{
+	box-sizing: border-box;
+}
+.container{
+	margin:0 auto;
+	text-align: center;
+}
+.logo-login{
+	background:url(logo.png);
+	width:289px;
+	height:50vh;
+	background-size:cover;
+	background-position: center center;
+	margin:0 auto;
+
+}
+.form-login{
+	font-size:30px;
+	margin-top: 30px;
+	border:solid grey 1px;
+	display:inline-block;
+	border-radius:15%;
+	width:400px;
+}
+button{
+	margin-top:10px;
+	padding:10px;
+	box-shadow:1px 2px 3px grey;
+	font-size:15px;
+	border:none;
+}
+a{
+	text-decoration:none;
+	color:black;
+	font-size:25px;
+}
