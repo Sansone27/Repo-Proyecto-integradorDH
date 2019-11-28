@@ -1,6 +1,6 @@
 footer{
     width: 100%;
-    background: #808080ab;
+    background: #8080806b;
 }
 footer .columnas-footer{
     display: flex;
@@ -23,6 +23,12 @@ footer .columnas-footer .col-footer .contactos-footer ul li{
     margin-left: 25%;
     color: white;
     text-shadow: 1px 2px black;
+    margin-top: 43px;
+    font-size: 17px;
+}
+footer .columnas-footer .col-footer .contactos-footer ul li a{
+    color: white;
+    text-decoration: none;
 }
 footer .columnas-footer .col-footer .iconos-footer{
     display: flex;
@@ -30,8 +36,21 @@ footer .columnas-footer .col-footer .iconos-footer{
     margin-top: 59px;
 }
 footer .columnas-footer .col-footer .iconos-footer a ion-icon{
-    font-size: 47px;
+    font-size: 50px;
     color: white;
+}
+footer .columnas-footer .col-footer.mapa{
+    padding-left: 67px;
+}
+footer .columnas-footer .col-footer.mapa h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    margin: 0;
+    margin-bottom: 18px;
+    color: white;
+    text-shadow: 1px 2px black;
+    padding-right: 93px;
 }
 footer a.desarrolladores{
     color: white;
@@ -42,4 +61,5 @@ footer a.desarrolladores{
     padding-bottom: 7px;
     letter-spacing: 1.4px;
     text-shadow: 1px 3px black;
+    font-size: 17px;
 }
