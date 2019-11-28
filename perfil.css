@@ -1,0 +1,30 @@
+*{
+	box-sizing: border-box;
+}
+.container{
+	margin: 0 auto;
+	text-align:center;
+
+}
+.image-user img{
+	height:auto;
+	background-size: cover;
+	background-position: center center;
+	width:400px;
+	border-radius: 50%;
+}
+.date-user ul li{
+	font-size:30px;
+	list-style: none;
+	padding:5px;
+}
+button{
+	font-size:30px;
+	color:black;
+	margin-top:20px;
+	background:grey;
+	text-shadow:10px 10px 10px white;
+}
+.date-user span{
+	color:blue;
+}
