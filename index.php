@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<title>Coipu Rugby Club</title>
@@ -20,8 +20,8 @@
 		<header>
 			<a class="nav-opc" href="">Galeria</a>
 			<a class="nav-opc" href="">Noticias</a>
-			<a class="nav-opc" href="footer.html">Contactanos</a>
-			<a class="nav-opc" href="login.html">Iniciar Sesion</a>
+			<a class="nav-opc" href="footer.php">Contactanos</a>
+			<a class="nav-opc" href="login.php">Iniciar Sesion</a>
 		</header><!--CIERRE DE HEADER-->
 		<div class="article-section">
 			<section>
